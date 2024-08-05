@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+
+	Dont write in this file!
+
+	Created By Alberto Marà
+	www.albertomara.com
+	Pixosystems group
+	www.pixosystems.com
+
+	Any right reserved
+
+*/
+
+/*link setting*/
+
+
+/*structure page*/
+#page{
+	margin:0px;
+	padding:0px;
+
+	background-color:#FFF;
+	background-image:url(./image/background.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+
+	text-align:center;
+	}
+
+div#menu{
+	margin-left:380px;
+	margin-top:-20px;
+	}
+	a img{
+	border: 0;
+	} 
+		
+
+div#content{
+	width:670px;
+	margin-left:32%;
+	margin-top:-30px;
+	position:absolute;
+	z-index:1;
+	}
+	
+div#content_element{
+	width:670px;
+	background-image:url(./image/perga_texture.png);
+	background-repeat:repeat-y;
+	margin-top:-80px;
+	}
+
+div#sidebar_left{
+	width:180px;
+	margin-left:22%;
+	position:absolute;
+	}
+	
+	
+	
+/*page elements*/
+#logo{
+	margin-left:370px;
+	margin-top:70px;
+	}
+#clickhere{
+	margin-left:-50px;
+	margin-top:-250px;
+	}
+#photo{
+	margin-top:-80px;
+	margin-left:-120px;
+	}
+
+
+/*typewrite setting*/
+.p1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-style:italic;
+	margin-left:10px;
+	}
